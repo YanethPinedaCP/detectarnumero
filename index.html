@@ -191,7 +191,7 @@
             const base64Image = canvas.toDataURL('image/png');
             console.log("Imagen convertida");
         
-            fetch('https://tareaia6.onrender.com/predecirmas', {
+            fetch('http://127.0.0.1:5000/predecirmas', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
